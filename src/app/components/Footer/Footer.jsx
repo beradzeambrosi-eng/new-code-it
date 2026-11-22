@@ -1,11 +1,11 @@
-import Link from "next/link";
+import React from "react";
 import styles from "./Footer.module.css";
+
+const year = new Date().getFullYear();
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
-      © All Rights Reserved | date: {new Date().getFullYear()}
-    </footer>
+    <footer className={styles.footerCont}>©All Right Reserved | {year}</footer>
   );
 };
 
