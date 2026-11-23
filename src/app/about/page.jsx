@@ -1,6 +1,5 @@
 import styles from "./page.module.css";
-
-console.log(styles)
+console.log(styles);
 const About = () => {
     return <h1 className={styles.title}>About Page</h1>;
 };
